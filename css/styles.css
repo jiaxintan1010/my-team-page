@@ -1,0 +1,160 @@
+:root {
+    --black-color: #000000;
+    --lightgrey-color: #A9A9A9;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1080px;
+    margin: auto;
+    overflow: hidden auto;
+    padding: 1rem 4rem;
+}
+
+/* header */
+
+.header {
+    padding: 5rem 0;
+    display: flex;
+    /* justify-content: space-between; ???*/
+}
+
+.header-title {
+    flex: 3;
+}
+
+.header-title h1 {
+    font-family: 'PT Serif', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.25rem;
+    line-height: 3rem;
+    letter-spacing: -0.045em;
+}
+
+.header-description {
+    flex: 2;
+}
+
+.header-description h3 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.125rem;
+    line-height: 1.6875rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.header-description p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 1.6875rem;
+    text-align: justify;
+}
+
+/* main */
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.team-member {
+    width: 270px;
+    /* height: 400px; */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.team-member:nth-child(even) {
+    margin-top: 4rem;
+}
+
+.team-member:nth-child(5) {
+    margin-top: 8rem;
+}
+
+img {
+    width: 85%;
+    object-fit: cover;
+}
+
+span {
+    font-family: 'PT Serif', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    text-transform: uppercase;
+    writing-mode: vertical-rl;
+    margin-left: 0.7rem;
+}
+
+.team-member p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.125rem;
+    line-height: 1.6875rem;
+    margin-top: 1rem;
+}
+
+/* footer */
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 1rem;
+    margin: 8rem auto 2rem;
+}
+
+.footer-text {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1rem;
+    color: var(--lightgrey-color);
+}
+
+.footer-icon a {
+    margin: 0.5rem;
+    color: var(--lightgrey-color);
+}
+
+/* media query */
+
+@media only screen and (max-width: 900px) {
+    .container {
+        width: 60%;
+    }
+
+    .header {
+        flex-direction: column;
+        width: 80%;
+    }
+
+    /* .header-description {
+        margin: 2rem auto;
+    } */
+
+    .team-member {
+        width: 40%;
+    }
+}
+
+@media only screen and (max-width: 1247px) {
+    .team-member:nth-child(5) {
+        margin-top: 0;
+    }
+}
