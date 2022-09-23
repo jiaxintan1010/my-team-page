@@ -1,4 +1,4 @@
-<h1>404 Not Found</h1>
+<h1>My Team Page</h1>
 <p>Solution for a challenge from  <a href="https://devchallenges.io/">devChallenges.io</a>.</p>
 <p>Create a responsive web page 'My Team Page'.</p>
 
