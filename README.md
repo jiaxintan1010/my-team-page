@@ -9,7 +9,7 @@
 </ul>
 
 <h2>Demo</h2>
-View <a href="https://{your-demo-link.your-domain}">here</a>
+View <a href="https://jiaxintan1010.github.io/my-team-page/">here</a>
 
 <h2>Desktop View</h2>
 <img src="https://user-images.githubusercontent.com/68268595/191912776-a612392c-58f7-4d22-9a86-a5511e4ae692.png" alt="my-team-page-desktop-view-img">
